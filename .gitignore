@@ -1,0 +1,33 @@
+# 本机恢复数据，不得作为开源文件提交。
+backups/
+logs/
+CodexRecovery/
+legacy-private-*/
+pending.json
+completed-*.json
+.running.lock
+*.reg
+*.log
+*.evtx
+*.dmp
+*.lnk
+
+# 本地配置、编辑器及临时产物。
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+.vscode/
+.idea/
+*.swp
+*.tmp
+*.bak
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.zip
+*.7z
